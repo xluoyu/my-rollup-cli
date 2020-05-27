@@ -1,0 +1,23 @@
+{
+  "name": "timetable",
+  "version": "1.0.0",
+  "description": "一个日历形式的排班插件",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/gulp/bin/gulp"
+  },
+  "author": "xluoyu",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.0",
+    "@babel/preset-env": "^7.10.0",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "clear": "^0.1.0",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "rollup": "^2.10.9",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
